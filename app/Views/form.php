@@ -11,7 +11,7 @@
 
 <body>
     <div class="container mt-5">
-
+        <?php echo isset($user['id']) ? '<h2>Editar Usuário</h2>' : '<h2>Cadastrar Usuário </h2>' ?>
         <?php echo form_open('user/store') ?>
         <div class="form-group">
             <label for="username">Username</label>

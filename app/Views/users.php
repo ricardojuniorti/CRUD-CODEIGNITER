@@ -42,6 +42,7 @@
 <body>
 
     <div class="container mt-5">
+        <h2>Listar Usuários</h2>
         <?php echo anchor(base_url('user/create'), 'Novo usuário', ['class' => 'btn btn-success mb-3']) ?>
         <table class="table">
             <tr>
